@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18CE577619AE2543005A93CA /* RecommendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CE577419AE2543005A93CA /* RecommendViewController.m */; };
+		18CE577719AE2543005A93CA /* RecommendViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18CE577519AE2543005A93CA /* RecommendViewController.xib */; };
+		18CE577B19AE2559005A93CA /* CartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CE577919AE2559005A93CA /* CartViewController.m */; };
+		18CE577C19AE2559005A93CA /* CartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18CE577A19AE2559005A93CA /* CartViewController.xib */; };
+		18CE578019AE2568005A93CA /* ClassifyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CE577E19AE2568005A93CA /* ClassifyViewController.m */; };
+		18CE578119AE2568005A93CA /* ClassifyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18CE577F19AE2568005A93CA /* ClassifyViewController.xib */; };
+		18CE578919AE2589005A93CA /* FindViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CE578719AE2589005A93CA /* FindViewController.m */; };
+		18CE578A19AE2589005A93CA /* FindViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18CE578819AE2589005A93CA /* FindViewController.xib */; };
+		18CE578D19AE2634005A93CA /* GuideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CE578C19AE2634005A93CA /* GuideViewController.m */; };
+		18CE579119AE28CC005A93CA /* UserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CE578F19AE28CC005A93CA /* UserViewController.m */; };
+		18CE579219AE28CC005A93CA /* UserViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18CE579019AE28CC005A93CA /* UserViewController.xib */; };
 		18EDBEDE19ADE6D200CBAB2D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18EDBEDD19ADE6D200CBAB2D /* Foundation.framework */; };
 		18EDBEE019ADE6D200CBAB2D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18EDBEDF19ADE6D200CBAB2D /* CoreGraphics.framework */; };
 		18EDBEE219ADE6D200CBAB2D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18EDBEE119ADE6D200CBAB2D /* UIKit.framework */; };
@@ -32,6 +43,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18CE577319AE2543005A93CA /* RecommendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecommendViewController.h; sourceTree = "<group>"; };
+		18CE577419AE2543005A93CA /* RecommendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecommendViewController.m; sourceTree = "<group>"; };
+		18CE577519AE2543005A93CA /* RecommendViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecommendViewController.xib; sourceTree = "<group>"; };
+		18CE577819AE2559005A93CA /* CartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CartViewController.h; sourceTree = "<group>"; };
+		18CE577919AE2559005A93CA /* CartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CartViewController.m; sourceTree = "<group>"; };
+		18CE577A19AE2559005A93CA /* CartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CartViewController.xib; sourceTree = "<group>"; };
+		18CE577D19AE2568005A93CA /* ClassifyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassifyViewController.h; sourceTree = "<group>"; };
+		18CE577E19AE2568005A93CA /* ClassifyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassifyViewController.m; sourceTree = "<group>"; };
+		18CE577F19AE2568005A93CA /* ClassifyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ClassifyViewController.xib; sourceTree = "<group>"; };
+		18CE578619AE2589005A93CA /* FindViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindViewController.h; sourceTree = "<group>"; };
+		18CE578719AE2589005A93CA /* FindViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindViewController.m; sourceTree = "<group>"; };
+		18CE578819AE2589005A93CA /* FindViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FindViewController.xib; sourceTree = "<group>"; };
+		18CE578B19AE2634005A93CA /* GuideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuideViewController.h; sourceTree = "<group>"; };
+		18CE578C19AE2634005A93CA /* GuideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuideViewController.m; sourceTree = "<group>"; };
+		18CE578E19AE28CC005A93CA /* UserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserViewController.h; sourceTree = "<group>"; };
+		18CE578F19AE28CC005A93CA /* UserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserViewController.m; sourceTree = "<group>"; };
+		18CE579019AE28CC005A93CA /* UserViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserViewController.xib; sourceTree = "<group>"; };
 		18EDBEDA19ADE6D200CBAB2D /* Cupup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cupup.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18EDBEDD19ADE6D200CBAB2D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		18EDBEDF19ADE6D200CBAB2D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -74,6 +102,70 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18CE576D19AE245A005A93CA /* find */ = {
+			isa = PBXGroup;
+			children = (
+				18CE578619AE2589005A93CA /* FindViewController.h */,
+				18CE578719AE2589005A93CA /* FindViewController.m */,
+				18CE578819AE2589005A93CA /* FindViewController.xib */,
+			);
+			name = find;
+			sourceTree = "<group>";
+		};
+		18CE576E19AE2469005A93CA /* user */ = {
+			isa = PBXGroup;
+			children = (
+				18CE578E19AE28CC005A93CA /* UserViewController.h */,
+				18CE578F19AE28CC005A93CA /* UserViewController.m */,
+				18CE579019AE28CC005A93CA /* UserViewController.xib */,
+			);
+			name = user;
+			sourceTree = "<group>";
+		};
+		18CE576F19AE247A005A93CA /* classify */ = {
+			isa = PBXGroup;
+			children = (
+				18CE577D19AE2568005A93CA /* ClassifyViewController.h */,
+				18CE577E19AE2568005A93CA /* ClassifyViewController.m */,
+				18CE577F19AE2568005A93CA /* ClassifyViewController.xib */,
+			);
+			name = classify;
+			sourceTree = "<group>";
+		};
+		18CE577019AE24EC005A93CA /* cart */ = {
+			isa = PBXGroup;
+			children = (
+				18CE577819AE2559005A93CA /* CartViewController.h */,
+				18CE577919AE2559005A93CA /* CartViewController.m */,
+				18CE577A19AE2559005A93CA /* CartViewController.xib */,
+			);
+			name = cart;
+			sourceTree = "<group>";
+		};
+		18CE577119AE24F3005A93CA /* recommend */ = {
+			isa = PBXGroup;
+			children = (
+				18CE577319AE2543005A93CA /* RecommendViewController.h */,
+				18CE577419AE2543005A93CA /* RecommendViewController.m */,
+				18CE577519AE2543005A93CA /* RecommendViewController.xib */,
+			);
+			name = recommend;
+			sourceTree = "<group>";
+		};
+		18CE577219AE2526005A93CA /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				18CE577119AE24F3005A93CA /* recommend */,
+				18CE577019AE24EC005A93CA /* cart */,
+				18CE576F19AE247A005A93CA /* classify */,
+				18CE576E19AE2469005A93CA /* user */,
+				18CE576D19AE245A005A93CA /* find */,
+				18CE578B19AE2634005A93CA /* GuideViewController.h */,
+				18CE578C19AE2634005A93CA /* GuideViewController.m */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
 		18EDBED119ADE6D200CBAB2D = {
 			isa = PBXGroup;
 			children = (
@@ -107,6 +199,7 @@
 		18EDBEE319ADE6D200CBAB2D /* Cupup */ = {
 			isa = PBXGroup;
 			children = (
+				18CE577219AE2526005A93CA /* controller */,
 				18EDBEEC19ADE6D200CBAB2D /* AppDelegate.h */,
 				18EDBEED19ADE6D200CBAB2D /* AppDelegate.m */,
 				18EDBEEF19ADE6D200CBAB2D /* Images.xcassets */,
@@ -219,8 +312,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18CE579219AE28CC005A93CA /* UserViewController.xib in Resources */,
+				18CE577C19AE2559005A93CA /* CartViewController.xib in Resources */,
+				18CE578A19AE2589005A93CA /* FindViewController.xib in Resources */,
 				18EDBEE819ADE6D200CBAB2D /* InfoPlist.strings in Resources */,
 				18EDBEF019ADE6D200CBAB2D /* Images.xcassets in Resources */,
+				18CE578119AE2568005A93CA /* ClassifyViewController.xib in Resources */,
+				18CE577719AE2543005A93CA /* RecommendViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,8 +337,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18CE577B19AE2559005A93CA /* CartViewController.m in Sources */,
+				18CE578019AE2568005A93CA /* ClassifyViewController.m in Sources */,
 				18EDBEEE19ADE6D200CBAB2D /* AppDelegate.m in Sources */,
 				18EDBEEA19ADE6D200CBAB2D /* main.m in Sources */,
+				18CE578D19AE2634005A93CA /* GuideViewController.m in Sources */,
+				18CE579119AE28CC005A93CA /* UserViewController.m in Sources */,
+				18CE577619AE2543005A93CA /* RecommendViewController.m in Sources */,
+				18CE578919AE2589005A93CA /* FindViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +541,7 @@
 				18EDBF0819ADE6D200CBAB2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18EDBF0919ADE6D200CBAB2D /* Build configuration list for PBXNativeTarget "CupupTests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +550,7 @@
 				18EDBF0B19ADE6D200CBAB2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

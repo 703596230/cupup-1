@@ -14,7 +14,38 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
+    
+    
+    UINavigationController * recommend = [[UINavigationController alloc]initWithRootViewController:[[RecommendViewController alloc]init] ];
+    
+    UINavigationController * classify = [[UINavigationController alloc]initWithRootViewController: [[ClassifyViewController alloc]init]];
+    
+    UINavigationController * find = [[UINavigationController alloc]initWithRootViewController:[[FindViewController alloc]init] ];
+    
+    UINavigationController * cart = [[UINavigationController alloc]initWithRootViewController: [[CartViewController alloc]init]];
+    
+    UINavigationController * user = [[UINavigationController alloc]initWithRootViewController: [[UserViewController alloc]init]];
+    
+    UITabBarController * tabbar = [[UITabBarController alloc]init];
+    
+    tabbar.viewControllers = [NSArray arrayWithObjects:recommend,classify,find,cart,user, nil];
+    
+    UITabBarItem * tabbarItem0 = [tabbar.tabBar.items objectAtIndex:0];
+    tabbarItem0.title = @"推荐";
+    
+    UITabBarItem * tabbarItem1 = [tabbar.tabBar.items objectAtIndex:1];
+    tabbarItem1.title = @"分类";
+    
+    UITabBarItem * tabbarItem2 = [tabbar.tabBar.items objectAtIndex:2];
+    tabbarItem2.title = @"发现";
+    
+    UITabBarItem * tabbarItem3 = [tabbar.tabBar.items objectAtIndex:3];
+    tabbarItem3.title = @"购物车";
+    
+    UITabBarItem * tabbarItem4 = [tabbar.tabBar.items objectAtIndex:4];
+    tabbarItem4.title = @"我的";
+    
+    self.window.rootViewController = tabbar;
     [self.window makeKeyAndVisible];
     return YES;
 }
