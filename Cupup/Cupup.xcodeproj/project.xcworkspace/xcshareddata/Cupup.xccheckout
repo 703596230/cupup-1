@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>3359D45E-960D-412C-B9FE-C6BFA5F56F87</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Cupup</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D4CA7080-D623-486B-9F75-5B11DB93799F</key>
+		<string>ssh://github.com/onean/cupup.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Cupup/Cupup.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D4CA7080-D623-486B-9F75-5B11DB93799F</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/onean/cupup.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D4CA7080-D623-486B-9F75-5B11DB93799F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D4CA7080-D623-486B-9F75-5B11DB93799F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>cupup</string>
+		</dict>
+	</array>
+</dict>
+</plist>
