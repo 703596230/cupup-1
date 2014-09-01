@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface GuideViewController : UIViewController
-
+{
+    UIView * guideOneView;
+}
 @end
