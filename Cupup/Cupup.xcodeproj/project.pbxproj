@@ -38,6 +38,7 @@
 		18D1877019AF8C4100210824 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18D1876F19AF8C4100210824 /* MobileCoreServices.framework */; };
 		18D1877219AF8C4B00210824 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 18D1877119AF8C4B00210824 /* libz.dylib */; };
 		18D1877619AF8CE400210824 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D1877519AF8CE400210824 /* Reachability.m */; };
+		18D9772319B55CAB00F3818B /* CalculateCup.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D9772219B55CAB00F3818B /* CalculateCup.m */; };
 		18EDBEDE19ADE6D200CBAB2D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18EDBEDD19ADE6D200CBAB2D /* Foundation.framework */; };
 		18EDBEE019ADE6D200CBAB2D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18EDBEDF19ADE6D200CBAB2D /* CoreGraphics.framework */; };
 		18EDBEE219ADE6D200CBAB2D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18EDBEE119ADE6D200CBAB2D /* UIKit.framework */; };
@@ -127,6 +128,8 @@
 		18D1877119AF8C4B00210824 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		18D1877419AF8CE400210824 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		18D1877519AF8CE400210824 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		18D9772119B55CAB00F3818B /* CalculateCup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculateCup.h; sourceTree = "<group>"; };
+		18D9772219B55CAB00F3818B /* CalculateCup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculateCup.m; sourceTree = "<group>"; };
 		18EDBEDA19ADE6D200CBAB2D /* Cupup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cupup.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18EDBEDD19ADE6D200CBAB2D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		18EDBEDF19ADE6D200CBAB2D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -372,6 +375,15 @@
 			path = Reachability;
 			sourceTree = "<group>";
 		};
+		18D9772019B55C7E00F3818B /* action */ = {
+			isa = PBXGroup;
+			children = (
+				18D9772119B55CAB00F3818B /* CalculateCup.h */,
+				18D9772219B55CAB00F3818B /* CalculateCup.m */,
+			);
+			name = action;
+			sourceTree = "<group>";
+		};
 		18EDBED119ADE6D200CBAB2D = {
 			isa = PBXGroup;
 			children = (
@@ -409,6 +421,7 @@
 		18EDBEE319ADE6D200CBAB2D /* Cupup */ = {
 			isa = PBXGroup;
 			children = (
+				18D9772019B55C7E00F3818B /* action */,
 				18D1877319AF8CE400210824 /* Reachability */,
 				18D1874519AF8B7700210824 /* third */,
 				18CE579719AE2C90005A93CA /* model */,
@@ -568,6 +581,7 @@
 				18D1876619AF8B8B00210824 /* ASINetworkQueue.m in Sources */,
 				18D1877619AF8CE400210824 /* Reachability.m in Sources */,
 				6AAB7DEC19B06C5600112ED2 /* KnowOneSelTwofViewController.m in Sources */,
+				18D9772319B55CAB00F3818B /* CalculateCup.m in Sources */,
 				18D1873E19AF8B0A00210824 /* ClassifyItemModel.m in Sources */,
 				18D1873819AF8ADF00210824 /* BraCoverModel.m in Sources */,
 				18D1875F19AF8B8B00210824 /* ASIAuthenticationDialog.m in Sources */,
