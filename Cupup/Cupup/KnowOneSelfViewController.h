@@ -10,4 +10,6 @@
 
 @interface KnowOneSelfViewController : UIViewController
 
+
+-(IBAction)btnClick:(id)sender;
 @end

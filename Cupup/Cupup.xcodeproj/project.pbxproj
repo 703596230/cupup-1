@@ -50,6 +50,8 @@
 		18EDBEF919ADE6D200CBAB2D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18EDBEE119ADE6D200CBAB2D /* UIKit.framework */; };
 		18EDBF0119ADE6D200CBAB2D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18EDBEFF19ADE6D200CBAB2D /* InfoPlist.strings */; };
 		18EDBF0319ADE6D200CBAB2D /* CupupTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EDBF0219ADE6D200CBAB2D /* CupupTests.m */; };
+		6A3BA92D19B457280055F933 /* cartTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A3BA92B19B457280055F933 /* cartTableViewCell.m */; };
+		6A3BA92E19B457280055F933 /* cartTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A3BA92C19B457280055F933 /* cartTableViewCell.xib */; };
 		6AAB7DDE19B01F7A00112ED2 /* UserInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AAB7DDD19B01F7A00112ED2 /* UserInfoViewController.m */; };
 		6AAB7DE219B0640D00112ED2 /* KnowOneSelfViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AAB7DE019B0640D00112ED2 /* KnowOneSelfViewController.m */; };
 		6AAB7DE319B0640D00112ED2 /* KnowOneSelfViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6AAB7DE119B0640D00112ED2 /* KnowOneSelfViewController.xib */; };
@@ -143,6 +145,9 @@
 		18EDBEFE19ADE6D200CBAB2D /* CupupTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CupupTests-Info.plist"; sourceTree = "<group>"; };
 		18EDBF0019ADE6D200CBAB2D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		18EDBF0219ADE6D200CBAB2D /* CupupTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CupupTests.m; sourceTree = "<group>"; };
+		6A3BA92A19B457280055F933 /* cartTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cartTableViewCell.h; sourceTree = "<group>"; };
+		6A3BA92B19B457280055F933 /* cartTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cartTableViewCell.m; sourceTree = "<group>"; };
+		6A3BA92C19B457280055F933 /* cartTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = cartTableViewCell.xib; sourceTree = "<group>"; };
 		6AAB7DDC19B01F7A00112ED2 /* UserInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfoViewController.h; sourceTree = "<group>"; };
 		6AAB7DDD19B01F7A00112ED2 /* UserInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfoViewController.m; sourceTree = "<group>"; };
 		6AAB7DDF19B0640D00112ED2 /* KnowOneSelfViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KnowOneSelfViewController.h; sourceTree = "<group>"; };
@@ -231,6 +236,9 @@
 				18CE577819AE2559005A93CA /* CartViewController.h */,
 				18CE577919AE2559005A93CA /* CartViewController.m */,
 				18CE577A19AE2559005A93CA /* CartViewController.xib */,
+				6A3BA92A19B457280055F933 /* cartTableViewCell.h */,
+				6A3BA92B19B457280055F933 /* cartTableViewCell.m */,
+				6A3BA92C19B457280055F933 /* cartTableViewCell.xib */,
 			);
 			name = cart;
 			sourceTree = "<group>";
@@ -533,6 +541,7 @@
 				18CE578A19AE2589005A93CA /* FindViewController.xib in Resources */,
 				18EDBEE819ADE6D200CBAB2D /* InfoPlist.strings in Resources */,
 				18EDBEF019ADE6D200CBAB2D /* Images.xcassets in Resources */,
+				6A3BA92E19B457280055F933 /* cartTableViewCell.xib in Resources */,
 				18CE578119AE2568005A93CA /* ClassifyViewController.xib in Resources */,
 				6AAB7DE819B0699200112ED2 /* KonwOneSelfTwoViewController.xib in Resources */,
 				18CE577719AE2543005A93CA /* RecommendViewController.xib in Resources */,
@@ -554,6 +563,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A3BA92D19B457280055F933 /* cartTableViewCell.m in Sources */,
 				18D1873B19AF8AED00210824 /* BraDetailModel.m in Sources */,
 				18D1876119AF8B8B00210824 /* ASIDataDecompressor.m in Sources */,
 				18CE577B19AE2559005A93CA /* CartViewController.m in Sources */,

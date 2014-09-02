@@ -7,7 +7,7 @@
 //
 
 #import "KnowOneSelTwofViewController.h"
-
+#import "UserViewController.h"
 @interface KnowOneSelTwofViewController ()
 
 @end
@@ -37,6 +37,7 @@
 
 -(IBAction)btnclick
 {
-    
+    UserViewController * userVC=[[UserViewController alloc] init];
+    [self.navigationController pushViewController:userVC animated:YES];
 }
 @end

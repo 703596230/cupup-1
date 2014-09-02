@@ -7,7 +7,7 @@
 //
 
 #import "RecommendViewController.h"
-
+#import "GuideViewController.h"
 @interface RecommendViewController ()
 
 @end
