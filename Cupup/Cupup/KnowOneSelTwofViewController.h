@@ -13,5 +13,4 @@
 
 
 -(IBAction)btnclick;
-@property(nonatomic,retain)UILabel * label;
 @end

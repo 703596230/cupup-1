@@ -7,7 +7,7 @@
 //
 
 #import "CartViewController.h"
-
+#import "cartTableViewCell.h"
 @interface CartViewController ()
 
 @end
@@ -27,7 +27,25 @@
 {
     self.navigationItem.title = @"购物车";
 }
-
+-(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    return 60;
+}
+-(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
+    return 5;
+}
+-(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    static NSString * cellId=@"cartTableViewCell";
+    cartTableViewCell * cell =[tableView dequeueReusableHeaderFooterViewWithIdentifier:cellId];
+    if (cell == nil)
+    {
+        cell=[[cartTableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellId];
+    }
+    
+    return cell;
+}
 - (void)viewDidLoad
 {
     [super viewDidLoad];

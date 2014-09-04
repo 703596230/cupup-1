@@ -7,7 +7,7 @@
 //
 
 #import "UserViewController.h"
-
+#import "KnowOneSelfViewController.h"
 @interface UserViewController ()
 
 @end
@@ -26,9 +26,15 @@
 - (void)viewWillAppear:(BOOL)animated
 {
     self.navigationItem.title = @"我的";
+    self.navigationItem.hidesBackButton =YES;
+
 }
 
-
+-(IBAction)knowOneselfbtnClick:(id)sender
+{
+    KnowOneSelfViewController * knowVC=[[KnowOneSelfViewController alloc] init];
+    [self.navigationController pushViewController:knowVC animated:YES];
+}
 
 - (void)viewDidLoad
 {

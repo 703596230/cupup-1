@@ -23,7 +23,10 @@
     }
     return self;
 }
-
+-(void)viewWillAppear:(BOOL)animated
+{
+    self.navigationItem.hidesBackButton =YES;
+}
 - (void)viewDidLoad
 {
     [super viewDidLoad];

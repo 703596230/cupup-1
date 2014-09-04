@@ -82,6 +82,9 @@
                         <color key="titleColor" red="0.96900475539999997" green="0.048871003779999998" blue="0.011197365569999999" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
+                    <connections>
+                        <action selector="twoBtnClick:" destination="-1" eventType="touchUpInside" id="Ic9-B9-6Tq"/>
+                    </connections>
                 </button>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>

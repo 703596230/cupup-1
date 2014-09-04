@@ -7,7 +7,7 @@
 //
 
 #import "KnowOneSelfViewController.h"
-
+#import "KonwOneSelfTwoViewController.h"
 @interface KnowOneSelfViewController ()
 
 @end
@@ -28,7 +28,11 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
 }
-
+-(IBAction)btnClick:(id)sender
+{
+    KonwOneSelfTwoViewController * knowTVC=[[KonwOneSelfTwoViewController alloc] init];
+    [self.navigationController pushViewController:knowTVC animated:YES];
+}
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];

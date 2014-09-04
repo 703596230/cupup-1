@@ -10,4 +10,6 @@
 
 @interface KonwOneSelfTwoViewController : UIViewController
 
+
+-(IBAction)twoBtnClick:(id)sender;
 @end
