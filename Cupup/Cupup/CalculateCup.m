@@ -19,7 +19,7 @@ static CalculateCup * calcuateCup = nil;
     return calcuateCup;
 }
 
--(NSDictionary *)calculateResultWithTop:(float) top andBottom:(float)bottom andFront:(int) frontFlag andSide:(int) sideFloag
+-(NSDictionary *)calculateResultWithTop:(float)top andBottom:(float)bottom andFront:(int) frontFlag andSide:(int)sideFloag
 {
     
     NSString * cup = [NSString stringWithFormat:@"%@%@",[self getFirstSizeFromBottom:bottom],[self getSecondCupWithTop:top andBottom:bottom]];

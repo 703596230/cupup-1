@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface RecommendViewController : UIViewController
-
+#import "BraListCollectionView.h"
+#import "XLCycleScrollView.h"
+@interface RecommendViewController : UIViewController<XLCycleScrollViewDatasource,XLCycleScrollViewDelegate>
+@property (strong, nonatomic) IBOutlet BraListCollectionView *braListCollectionView;
+@property (strong, nonatomic) XLCycleScrollView * cycleScrollView;
 @end

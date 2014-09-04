@@ -18,7 +18,6 @@
 		18CE578D19AE2634005A93CA /* GuideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CE578C19AE2634005A93CA /* GuideViewController.m */; };
 		18CE579119AE28CC005A93CA /* UserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CE578F19AE28CC005A93CA /* UserViewController.m */; };
 		18CE579219AE28CC005A93CA /* UserViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18CE579019AE28CC005A93CA /* UserViewController.xib */; };
-		18CE579619AE2C81005A93CA /* AppMacro.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CE579519AE2C81005A93CA /* AppMacro.m */; };
 		18D1873819AF8ADF00210824 /* BraCoverModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D1873719AF8ADF00210824 /* BraCoverModel.m */; };
 		18D1873B19AF8AED00210824 /* BraDetailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D1873A19AF8AED00210824 /* BraDetailModel.m */; };
 		18D1873E19AF8B0A00210824 /* ClassifyItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D1873D19AF8B0A00210824 /* ClassifyItemModel.m */; };
@@ -38,6 +37,11 @@
 		18D1877019AF8C4100210824 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18D1876F19AF8C4100210824 /* MobileCoreServices.framework */; };
 		18D1877219AF8C4B00210824 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 18D1877119AF8C4B00210824 /* libz.dylib */; };
 		18D1877619AF8CE400210824 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D1877519AF8CE400210824 /* Reachability.m */; };
+		18D1967A19B6B52000DF6AA9 /* BraListCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D1967919B6B52000DF6AA9 /* BraListCollectionView.m */; };
+		18D1967D19B6B56200DF6AA9 /* BraListCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D1967C19B6B56200DF6AA9 /* BraListCollectionViewFlowLayout.m */; };
+		18D1968019B6BA1400DF6AA9 /* BraCoverCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D1967F19B6BA1400DF6AA9 /* BraCoverCollectionViewCell.m */; };
+		18D1968419B6BA8900DF6AA9 /* BraCoverCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18D1968319B6BA8900DF6AA9 /* BraCoverCollectionViewCell.xib */; };
+		18D1968B19B76FC800DF6AA9 /* XLCycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D1968A19B76FC800DF6AA9 /* XLCycleScrollView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		18D9772319B55CAB00F3818B /* CalculateCup.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D9772219B55CAB00F3818B /* CalculateCup.m */; };
 		18EDBEDE19ADE6D200CBAB2D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18EDBEDD19ADE6D200CBAB2D /* Foundation.framework */; };
 		18EDBEE019ADE6D200CBAB2D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18EDBEDF19ADE6D200CBAB2D /* CoreGraphics.framework */; };
@@ -88,8 +92,6 @@
 		18CE578E19AE28CC005A93CA /* UserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserViewController.h; sourceTree = "<group>"; };
 		18CE578F19AE28CC005A93CA /* UserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserViewController.m; sourceTree = "<group>"; };
 		18CE579019AE28CC005A93CA /* UserViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserViewController.xib; sourceTree = "<group>"; };
-		18CE579419AE2C81005A93CA /* AppMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppMacro.h; sourceTree = "<group>"; };
-		18CE579519AE2C81005A93CA /* AppMacro.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppMacro.m; sourceTree = "<group>"; };
 		18D1873619AF8ADF00210824 /* BraCoverModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BraCoverModel.h; sourceTree = "<group>"; };
 		18D1873719AF8ADF00210824 /* BraCoverModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BraCoverModel.m; sourceTree = "<group>"; };
 		18D1873919AF8AED00210824 /* BraDetailModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BraDetailModel.h; sourceTree = "<group>"; };
@@ -128,6 +130,16 @@
 		18D1877119AF8C4B00210824 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		18D1877419AF8CE400210824 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		18D1877519AF8CE400210824 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		18D1967819B6B52000DF6AA9 /* BraListCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BraListCollectionView.h; sourceTree = "<group>"; };
+		18D1967919B6B52000DF6AA9 /* BraListCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BraListCollectionView.m; sourceTree = "<group>"; };
+		18D1967B19B6B56200DF6AA9 /* BraListCollectionViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BraListCollectionViewFlowLayout.h; sourceTree = "<group>"; };
+		18D1967C19B6B56200DF6AA9 /* BraListCollectionViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BraListCollectionViewFlowLayout.m; sourceTree = "<group>"; };
+		18D1967E19B6BA1400DF6AA9 /* BraCoverCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BraCoverCollectionViewCell.h; sourceTree = "<group>"; };
+		18D1967F19B6BA1400DF6AA9 /* BraCoverCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BraCoverCollectionViewCell.m; sourceTree = "<group>"; };
+		18D1968319B6BA8900DF6AA9 /* BraCoverCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BraCoverCollectionViewCell.xib; sourceTree = "<group>"; };
+		18D1968919B76FC800DF6AA9 /* XLCycleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLCycleScrollView.h; sourceTree = "<group>"; };
+		18D1968A19B76FC800DF6AA9 /* XLCycleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLCycleScrollView.m; sourceTree = "<group>"; };
+		18D1968C19B773D900DF6AA9 /* AppMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppMacro.h; sourceTree = "<group>"; };
 		18D9772119B55CAB00F3818B /* CalculateCup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculateCup.h; sourceTree = "<group>"; };
 		18D9772219B55CAB00F3818B /* CalculateCup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculateCup.m; sourceTree = "<group>"; };
 		18EDBEDA19ADE6D200CBAB2D /* Cupup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cupup.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -244,6 +256,13 @@
 				18CE577319AE2543005A93CA /* RecommendViewController.h */,
 				18CE577419AE2543005A93CA /* RecommendViewController.m */,
 				18CE577519AE2543005A93CA /* RecommendViewController.xib */,
+				18D1967819B6B52000DF6AA9 /* BraListCollectionView.h */,
+				18D1967919B6B52000DF6AA9 /* BraListCollectionView.m */,
+				18D1967B19B6B56200DF6AA9 /* BraListCollectionViewFlowLayout.h */,
+				18D1967C19B6B56200DF6AA9 /* BraListCollectionViewFlowLayout.m */,
+				18D1967E19B6BA1400DF6AA9 /* BraCoverCollectionViewCell.h */,
+				18D1967F19B6BA1400DF6AA9 /* BraCoverCollectionViewCell.m */,
+				18D1968319B6BA8900DF6AA9 /* BraCoverCollectionViewCell.xib */,
 			);
 			name = recommend;
 			sourceTree = "<group>";
@@ -265,8 +284,7 @@
 		18CE579319AE2C6E005A93CA /* macro */ = {
 			isa = PBXGroup;
 			children = (
-				18CE579419AE2C81005A93CA /* AppMacro.h */,
-				18CE579519AE2C81005A93CA /* AppMacro.m */,
+				18D1968C19B773D900DF6AA9 /* AppMacro.h */,
 			);
 			name = macro;
 			sourceTree = "<group>";
@@ -291,6 +309,7 @@
 		18D1874519AF8B7700210824 /* third */ = {
 			isa = PBXGroup;
 			children = (
+				18D1968819B76FC800DF6AA9 /* XLCycleScrollView */,
 				18D1876719AF8BAA00210824 /* HttpRequestFacade */,
 				18D1874619AF8B8B00210824 /* ASIHttpRequest */,
 			);
@@ -373,6 +392,15 @@
 				18D1877519AF8CE400210824 /* Reachability.m */,
 			);
 			path = Reachability;
+			sourceTree = "<group>";
+		};
+		18D1968819B76FC800DF6AA9 /* XLCycleScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				18D1968919B76FC800DF6AA9 /* XLCycleScrollView.h */,
+				18D1968A19B76FC800DF6AA9 /* XLCycleScrollView.m */,
+			);
+			path = XLCycleScrollView;
 			sourceTree = "<group>";
 		};
 		18D9772019B55C7E00F3818B /* action */ = {
@@ -545,6 +573,7 @@
 				18CE577C19AE2559005A93CA /* CartViewController.xib in Resources */,
 				18CE578A19AE2589005A93CA /* FindViewController.xib in Resources */,
 				18EDBEE819ADE6D200CBAB2D /* InfoPlist.strings in Resources */,
+				18D1968419B6BA8900DF6AA9 /* BraCoverCollectionViewCell.xib in Resources */,
 				18EDBEF019ADE6D200CBAB2D /* Images.xcassets in Resources */,
 				18CE578119AE2568005A93CA /* ClassifyViewController.xib in Resources */,
 				6AAB7DE819B0699200112ED2 /* KonwOneSelfTwoViewController.xib in Resources */,
@@ -569,22 +598,25 @@
 			files = (
 				18D1873B19AF8AED00210824 /* BraDetailModel.m in Sources */,
 				18D1876119AF8B8B00210824 /* ASIDataDecompressor.m in Sources */,
+				18D1967A19B6B52000DF6AA9 /* BraListCollectionView.m in Sources */,
 				18CE577B19AE2559005A93CA /* CartViewController.m in Sources */,
 				18D1876019AF8B8B00210824 /* ASIDataCompressor.m in Sources */,
 				6AAB7DE219B0640D00112ED2 /* KnowOneSelfViewController.m in Sources */,
 				6AAB7DE719B0699200112ED2 /* KonwOneSelfTwoViewController.m in Sources */,
 				18D1874119AF8B4000210824 /* UserInfoModel.m in Sources */,
 				18D1876A19AF8BAA00210824 /* HttpRequestFacade.m in Sources */,
-				18CE579619AE2C81005A93CA /* AppMacro.m in Sources */,
 				18D1876319AF8B8B00210824 /* ASIFormDataRequest.m in Sources */,
 				18CE578019AE2568005A93CA /* ClassifyViewController.m in Sources */,
 				18D1876619AF8B8B00210824 /* ASINetworkQueue.m in Sources */,
 				18D1877619AF8CE400210824 /* Reachability.m in Sources */,
 				6AAB7DEC19B06C5600112ED2 /* KnowOneSelTwofViewController.m in Sources */,
+				18D1968B19B76FC800DF6AA9 /* XLCycleScrollView.m in Sources */,
 				18D9772319B55CAB00F3818B /* CalculateCup.m in Sources */,
 				18D1873E19AF8B0A00210824 /* ClassifyItemModel.m in Sources */,
 				18D1873819AF8ADF00210824 /* BraCoverModel.m in Sources */,
+				18D1968019B6BA1400DF6AA9 /* BraCoverCollectionViewCell.m in Sources */,
 				18D1875F19AF8B8B00210824 /* ASIAuthenticationDialog.m in Sources */,
+				18D1967D19B6B56200DF6AA9 /* BraListCollectionViewFlowLayout.m in Sources */,
 				18EDBEEE19ADE6D200CBAB2D /* AppDelegate.m in Sources */,
 				18EDBEEA19ADE6D200CBAB2D /* main.m in Sources */,
 				18CE578D19AE2634005A93CA /* GuideViewController.m in Sources */,
