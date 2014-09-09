@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface FindViewController : UIViewController
-
+#import "FindBraTableViewCell.h"
+@interface FindViewController : UIViewController<UITableViewDataSource,UITableViewDelegate>
+@property (strong, nonatomic) IBOutlet UITableView *findTableView;
+@property (nonatomic, strong) NSMutableArray * findBraArray;
 @end

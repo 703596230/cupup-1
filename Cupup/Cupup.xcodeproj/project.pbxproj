@@ -42,7 +42,18 @@
 		18D1968019B6BA1400DF6AA9 /* BraCoverCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D1967F19B6BA1400DF6AA9 /* BraCoverCollectionViewCell.m */; };
 		18D1968419B6BA8900DF6AA9 /* BraCoverCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18D1968319B6BA8900DF6AA9 /* BraCoverCollectionViewCell.xib */; };
 		18D1968B19B76FC800DF6AA9 /* XLCycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D1968A19B76FC800DF6AA9 /* XLCycleScrollView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		18D1968F19B88EEF00DF6AA9 /* ClassifyDetailCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D1968E19B88EEF00DF6AA9 /* ClassifyDetailCollectionViewCell.m */; };
+		18D1969119B88EFB00DF6AA9 /* ClassifyDetailCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18D1969019B88EFB00DF6AA9 /* ClassifyDetailCollectionViewCell.xib */; };
+		18D1969419B88F0E00DF6AA9 /* ClassifyDetailCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D1969319B88F0E00DF6AA9 /* ClassifyDetailCollectionViewFlowLayout.m */; };
 		18D9772319B55CAB00F3818B /* CalculateCup.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D9772219B55CAB00F3818B /* CalculateCup.m */; };
+		18E0B97919BF621A002E17E2 /* FindBraTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E0B97719BF621A002E17E2 /* FindBraTableViewCell.m */; };
+		18E0B97A19BF621A002E17E2 /* FindBraTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18E0B97819BF621A002E17E2 /* FindBraTableViewCell.xib */; };
+		18E0B98119BF67D9002E17E2 /* FindDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E0B97F19BF67D9002E17E2 /* FindDetailViewController.m */; };
+		18E0B98219BF67D9002E17E2 /* FindDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18E0B98019BF67D9002E17E2 /* FindDetailViewController.xib */; };
+		18E0B98619BF6ADF002E17E2 /* FindPageBraLinkTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E0B98419BF6ADF002E17E2 /* FindPageBraLinkTableViewCell.m */; };
+		18E0B98719BF6ADF002E17E2 /* FindPageBraLinkTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18E0B98519BF6ADF002E17E2 /* FindPageBraLinkTableViewCell.xib */; };
+		18E0B98E19BF6B11002E17E2 /* EvaluateTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E0B98C19BF6B11002E17E2 /* EvaluateTableViewCell.m */; };
+		18E0B98F19BF6B11002E17E2 /* EvaluateTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18E0B98D19BF6B11002E17E2 /* EvaluateTableViewCell.xib */; };
 		18EDBEDE19ADE6D200CBAB2D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18EDBEDD19ADE6D200CBAB2D /* Foundation.framework */; };
 		18EDBEE019ADE6D200CBAB2D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18EDBEDF19ADE6D200CBAB2D /* CoreGraphics.framework */; };
 		18EDBEE219ADE6D200CBAB2D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18EDBEE119ADE6D200CBAB2D /* UIKit.framework */; };
@@ -142,8 +153,25 @@
 		18D1968919B76FC800DF6AA9 /* XLCycleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLCycleScrollView.h; sourceTree = "<group>"; };
 		18D1968A19B76FC800DF6AA9 /* XLCycleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLCycleScrollView.m; sourceTree = "<group>"; };
 		18D1968C19B773D900DF6AA9 /* AppMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppMacro.h; sourceTree = "<group>"; };
+		18D1968D19B88EEF00DF6AA9 /* ClassifyDetailCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassifyDetailCollectionViewCell.h; sourceTree = "<group>"; };
+		18D1968E19B88EEF00DF6AA9 /* ClassifyDetailCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassifyDetailCollectionViewCell.m; sourceTree = "<group>"; };
+		18D1969019B88EFB00DF6AA9 /* ClassifyDetailCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ClassifyDetailCollectionViewCell.xib; sourceTree = "<group>"; };
+		18D1969219B88F0E00DF6AA9 /* ClassifyDetailCollectionViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassifyDetailCollectionViewFlowLayout.h; sourceTree = "<group>"; };
+		18D1969319B88F0E00DF6AA9 /* ClassifyDetailCollectionViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassifyDetailCollectionViewFlowLayout.m; sourceTree = "<group>"; };
 		18D9772119B55CAB00F3818B /* CalculateCup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculateCup.h; sourceTree = "<group>"; };
 		18D9772219B55CAB00F3818B /* CalculateCup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculateCup.m; sourceTree = "<group>"; };
+		18E0B97619BF621A002E17E2 /* FindBraTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindBraTableViewCell.h; sourceTree = "<group>"; };
+		18E0B97719BF621A002E17E2 /* FindBraTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindBraTableViewCell.m; sourceTree = "<group>"; };
+		18E0B97819BF621A002E17E2 /* FindBraTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FindBraTableViewCell.xib; sourceTree = "<group>"; };
+		18E0B97E19BF67D9002E17E2 /* FindDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindDetailViewController.h; sourceTree = "<group>"; };
+		18E0B97F19BF67D9002E17E2 /* FindDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindDetailViewController.m; sourceTree = "<group>"; };
+		18E0B98019BF67D9002E17E2 /* FindDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FindDetailViewController.xib; sourceTree = "<group>"; };
+		18E0B98319BF6ADF002E17E2 /* FindPageBraLinkTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindPageBraLinkTableViewCell.h; sourceTree = "<group>"; };
+		18E0B98419BF6ADF002E17E2 /* FindPageBraLinkTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindPageBraLinkTableViewCell.m; sourceTree = "<group>"; };
+		18E0B98519BF6ADF002E17E2 /* FindPageBraLinkTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FindPageBraLinkTableViewCell.xib; sourceTree = "<group>"; };
+		18E0B98B19BF6B11002E17E2 /* EvaluateTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EvaluateTableViewCell.h; sourceTree = "<group>"; };
+		18E0B98C19BF6B11002E17E2 /* EvaluateTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EvaluateTableViewCell.m; sourceTree = "<group>"; };
+		18E0B98D19BF6B11002E17E2 /* EvaluateTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EvaluateTableViewCell.xib; sourceTree = "<group>"; };
 		18EDBEDA19ADE6D200CBAB2D /* Cupup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cupup.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18EDBEDD19ADE6D200CBAB2D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		18EDBEDF19ADE6D200CBAB2D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -207,9 +235,21 @@
 		18CE576D19AE245A005A93CA /* find */ = {
 			isa = PBXGroup;
 			children = (
+				18E0B97619BF621A002E17E2 /* FindBraTableViewCell.h */,
+				18E0B97719BF621A002E17E2 /* FindBraTableViewCell.m */,
+				18E0B97819BF621A002E17E2 /* FindBraTableViewCell.xib */,
 				18CE578619AE2589005A93CA /* FindViewController.h */,
 				18CE578719AE2589005A93CA /* FindViewController.m */,
 				18CE578819AE2589005A93CA /* FindViewController.xib */,
+				18E0B97E19BF67D9002E17E2 /* FindDetailViewController.h */,
+				18E0B97F19BF67D9002E17E2 /* FindDetailViewController.m */,
+				18E0B98019BF67D9002E17E2 /* FindDetailViewController.xib */,
+				18E0B98319BF6ADF002E17E2 /* FindPageBraLinkTableViewCell.h */,
+				18E0B98419BF6ADF002E17E2 /* FindPageBraLinkTableViewCell.m */,
+				18E0B98519BF6ADF002E17E2 /* FindPageBraLinkTableViewCell.xib */,
+				18E0B98B19BF6B11002E17E2 /* EvaluateTableViewCell.h */,
+				18E0B98C19BF6B11002E17E2 /* EvaluateTableViewCell.m */,
+				18E0B98D19BF6B11002E17E2 /* EvaluateTableViewCell.xib */,
 			);
 			name = find;
 			sourceTree = "<group>";
@@ -241,6 +281,11 @@
 				18CE577D19AE2568005A93CA /* ClassifyViewController.h */,
 				18CE577E19AE2568005A93CA /* ClassifyViewController.m */,
 				18CE577F19AE2568005A93CA /* ClassifyViewController.xib */,
+				18D1968D19B88EEF00DF6AA9 /* ClassifyDetailCollectionViewCell.h */,
+				18D1968E19B88EEF00DF6AA9 /* ClassifyDetailCollectionViewCell.m */,
+				18D1969019B88EFB00DF6AA9 /* ClassifyDetailCollectionViewCell.xib */,
+				18D1969219B88F0E00DF6AA9 /* ClassifyDetailCollectionViewFlowLayout.h */,
+				18D1969319B88F0E00DF6AA9 /* ClassifyDetailCollectionViewFlowLayout.m */,
 			);
 			name = classify;
 			sourceTree = "<group>";
@@ -575,8 +620,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18E0B98F19BF6B11002E17E2 /* EvaluateTableViewCell.xib in Resources */,
 				6AAB7DE319B0640D00112ED2 /* KnowOneSelfViewController.xib in Resources */,
 				18CE579219AE28CC005A93CA /* UserViewController.xib in Resources */,
+				18E0B97A19BF621A002E17E2 /* FindBraTableViewCell.xib in Resources */,
 				6AAB7DED19B06C5600112ED2 /* KnowOneSelTwofViewController.xib in Resources */,
 				18CE577C19AE2559005A93CA /* CartViewController.xib in Resources */,
 				18CE578A19AE2589005A93CA /* FindViewController.xib in Resources */,
@@ -584,9 +631,12 @@
 				18D1968419B6BA8900DF6AA9 /* BraCoverCollectionViewCell.xib in Resources */,
 				18EDBEF019ADE6D200CBAB2D /* Images.xcassets in Resources */,
 				6A3BA92E19B457280055F933 /* cartTableViewCell.xib in Resources */,
+				18E0B98719BF6ADF002E17E2 /* FindPageBraLinkTableViewCell.xib in Resources */,
 				18CE578119AE2568005A93CA /* ClassifyViewController.xib in Resources */,
 				6AAB7DE819B0699200112ED2 /* KonwOneSelfTwoViewController.xib in Resources */,
+				18D1969119B88EFB00DF6AA9 /* ClassifyDetailCollectionViewCell.xib in Resources */,
 				18CE577719AE2543005A93CA /* RecommendViewController.xib in Resources */,
+				18E0B98219BF67D9002E17E2 /* FindDetailViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -623,17 +673,23 @@
 				18D1968B19B76FC800DF6AA9 /* XLCycleScrollView.m in Sources */,
 				18D9772319B55CAB00F3818B /* CalculateCup.m in Sources */,
 				18D1873E19AF8B0A00210824 /* ClassifyItemModel.m in Sources */,
+				18E0B98E19BF6B11002E17E2 /* EvaluateTableViewCell.m in Sources */,
+				18E0B98119BF67D9002E17E2 /* FindDetailViewController.m in Sources */,
 				18D1873819AF8ADF00210824 /* BraCoverModel.m in Sources */,
 				18D1968019B6BA1400DF6AA9 /* BraCoverCollectionViewCell.m in Sources */,
 				18D1875F19AF8B8B00210824 /* ASIAuthenticationDialog.m in Sources */,
+				18D1969419B88F0E00DF6AA9 /* ClassifyDetailCollectionViewFlowLayout.m in Sources */,
 				18D1967D19B6B56200DF6AA9 /* BraListCollectionViewFlowLayout.m in Sources */,
 				18EDBEEE19ADE6D200CBAB2D /* AppDelegate.m in Sources */,
+				18E0B98619BF6ADF002E17E2 /* FindPageBraLinkTableViewCell.m in Sources */,
 				18EDBEEA19ADE6D200CBAB2D /* main.m in Sources */,
 				18CE578D19AE2634005A93CA /* GuideViewController.m in Sources */,
+				18E0B97919BF621A002E17E2 /* FindBraTableViewCell.m in Sources */,
 				18D1874419AF8B5600210824 /* ShowChestModel.m in Sources */,
 				18D1876219AF8B8B00210824 /* ASIDownloadCache.m in Sources */,
 				18CE579119AE28CC005A93CA /* UserViewController.m in Sources */,
 				6AAB7DDE19B01F7A00112ED2 /* UserInfoViewController.m in Sources */,
+				18D1968F19B88EEF00DF6AA9 /* ClassifyDetailCollectionViewCell.m in Sources */,
 				18D1876419AF8B8B00210824 /* ASIHTTPRequest.m in Sources */,
 				18CE577619AE2543005A93CA /* RecommendViewController.m in Sources */,
 				18CE578919AE2589005A93CA /* FindViewController.m in Sources */,
