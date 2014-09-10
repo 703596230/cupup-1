@@ -7,13 +7,11 @@
 //
 
 #import "RecommendViewController.h"
-<<<<<<< HEAD
 #import "AppMacro.h"
+#import "GuideViewController.h"
+
 #define banner_height 100
 
-=======
-#import "GuideViewController.h"
->>>>>>> 66641c0452f85758343b7e4e7d8ed18014748d55
 @interface RecommendViewController ()
 
 @end
