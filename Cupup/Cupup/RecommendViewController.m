@@ -63,7 +63,7 @@
 
 - (void)didClickPage:(XLCycleScrollView *)csView atIndex:(NSInteger)index
 {
-    NSLog(@"%ld",index);
+    NSLog(@"%ld",(long)index);
     
 //    self.hidesBottomBarWhenPushed = YES;
 //    [self.navigationController pushViewController:[vdvc autorelease] animated:YES];
