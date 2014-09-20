@@ -951,10 +951,13 @@
 				189CDEEF19CD595400A28484 /* logo_03@2x.png in Resources */,
 				189CDEEA19CD595400A28484 /* icon1dianji (1).png in Resources */,
 				18CE579219AE28CC005A93CA /* UserViewController.xib in Resources */,
+<<<<<<< HEAD
 				189CDECA19CD594E00A28484 /* xiangji@2x.png in Resources */,
 				189CDEE919CD595400A28484 /* icon (5).png in Resources */,
 				189CDECF19CD594E00A28484 /* 晒胸---评论_03.png in Resources */,
 				189CDED119CD594E00A28484 /* 晒胸---评论_10.png in Resources */,
+=======
+>>>>>>> 876ec9a6c138ff2fb093439dc744ba762ba283e5
 				6AEDEB3A19BFEF8600B546A6 /* CommodityfViewController.xib in Resources */,
 				18E0B97A19BF621A002E17E2 /* FindBraTableViewCell.xib in Resources */,
 				189CDEC919CD594E00A28484 /* touxiang@2x.png in Resources */,
@@ -1002,8 +1005,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+<<<<<<< HEAD
 				189CDEA819CD590100A28484 /* SBJSON.m in Sources */,
 				189CDEA419CD590100A28484 /* NSDate+TimeInterval.m in Sources */,
+=======
+>>>>>>> 876ec9a6c138ff2fb093439dc744ba762ba283e5
 				6AEDEB4719C0298500B546A6 /* yourLikeView.m in Sources */,
 				6A3BA92D19B457280055F933 /* cartTableViewCell.m in Sources */,
 				18D1873B19AF8AED00210824 /* BraDetailModel.m in Sources */,
@@ -1026,8 +1032,11 @@
 				6AAB7DEC19B06C5600112ED2 /* KnowOneSelTwofViewController.m in Sources */,
 				189CDEB119CD590100A28484 /* UIImage+imagePlus.m in Sources */,
 				18D1968B19B76FC800DF6AA9 /* XLCycleScrollView.m in Sources */,
+<<<<<<< HEAD
 				189CDEB219CD590100A28484 /* Toast+UIView.m in Sources */,
 				189CDEAA19CD590100A28484 /* SBJsonParser.m in Sources */,
+=======
+>>>>>>> 876ec9a6c138ff2fb093439dc744ba762ba283e5
 				6AEDEB4419C0295B00B546A6 /* evaluateView.m in Sources */,
 				18D9772319B55CAB00F3818B /* CalculateCup.m in Sources */,
 				18D1873E19AF8B0A00210824 /* ClassifyItemModel.m in Sources */,
@@ -1039,7 +1048,10 @@
 				18D1968019B6BA1400DF6AA9 /* BraCoverCollectionViewCell.m in Sources */,
 				18D1875F19AF8B8B00210824 /* ASIAuthenticationDialog.m in Sources */,
 				6AEDEB3919BFEF8600B546A6 /* CommodityfViewController.m in Sources */,
+<<<<<<< HEAD
 				189CDEAC19CD590100A28484 /* SDDataCache.m in Sources */,
+=======
+>>>>>>> 876ec9a6c138ff2fb093439dc744ba762ba283e5
 				18D1969419B88F0E00DF6AA9 /* ClassifyDetailCollectionViewFlowLayout.m in Sources */,
 				189CDEA919CD590100A28484 /* SBJsonBase.m in Sources */,
 				18D1967D19B6B56200DF6AA9 /* BraListCollectionViewFlowLayout.m in Sources */,
@@ -1048,10 +1060,15 @@
 				189CDE9F19CD590100A28484 /* NLCropViewLayer.m in Sources */,
 				18E0B98619BF6ADF002E17E2 /* FindPageBraLinkTableViewCell.m in Sources */,
 				6AEDEB3E19C0290200B546A6 /* particularsView.m in Sources */,
+<<<<<<< HEAD
 				189CDEB019CD590100A28484 /* SDWebDataManager.m in Sources */,
 				18EDBEEA19ADE6D200CBAB2D /* main.m in Sources */,
 				6AEDEB4119C0294300B546A6 /* parameterView.m in Sources */,
 				189CDEA119CD590100A28484 /* YACropImageClass.m in Sources */,
+=======
+				18EDBEEA19ADE6D200CBAB2D /* main.m in Sources */,
+				6AEDEB4119C0294300B546A6 /* parameterView.m in Sources */,
+>>>>>>> 876ec9a6c138ff2fb093439dc744ba762ba283e5
 				18CE578D19AE2634005A93CA /* GuideViewController.m in Sources */,
 				18E0B97919BF621A002E17E2 /* FindBraTableViewCell.m in Sources */,
 				189CDEAD19CD590100A28484 /* SDImageView+SDWebCache.m in Sources */,

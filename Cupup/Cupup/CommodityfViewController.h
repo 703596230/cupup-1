@@ -9,7 +9,11 @@
 #import <UIKit/UIKit.h>
 #import "particularsView.h"
 #import "parameterView.h"
+<<<<<<< HEAD
 #import "evaluateView.h"
+=======
+#import "evaluateView.m"
+>>>>>>> 876ec9a6c138ff2fb093439dc744ba762ba283e5
 #import "yourLikeView.h"
 @interface CommodityfViewController : UIViewController
 {
