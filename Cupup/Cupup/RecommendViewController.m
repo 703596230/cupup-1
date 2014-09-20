@@ -7,8 +7,9 @@
 //
 
 #import "RecommendViewController.h"
-
 #import "AppMacro.h"
+#import "GuideViewController.h"
+
 #define banner_height 100
 
 @interface RecommendViewController ()
@@ -62,7 +63,7 @@
 
 - (void)didClickPage:(XLCycleScrollView *)csView atIndex:(NSInteger)index
 {
-    NSLog(@"%ld",index);
+    NSLog(@"%ld",(long)index);
     
 //    self.hidesBottomBarWhenPushed = YES;
 //    [self.navigationController pushViewController:[vdvc autorelease] animated:YES];
